@@ -5,7 +5,7 @@ public class Veghotel1
  	int a,b,c=0,c1=0;
  	int d[]={30,35,40,45,30,100,125,150,175,25,30,20,10,20,0,10};
  	int r,x=0,s=0,z=1;
- 	 String a4[]={"Idly","Vada","Dosa","Poori","Bonda","NorthIndian","SouthIndian","Chinese","Italian","ChilledCoffee","Juice","Tea","Milk"};
+ String a4[]={"Idly","Vada","Dosa","Poori","Bonda","NorthIndian","SouthIndian","Chinese","Italian","ChilledCoffee","Juice","Tea","Milk"};
 while(z==1){
  	System.out.println("Choose the type of food or drink you want:");
  	System.out.println("1.Breakfast\n2.Lunch\n3.Dinner\n4.Snacks\n5.Beverages");
@@ -21,6 +21,7 @@ while(z==1){
  			if(b>5)
  				{System.out.println("Invalid input");}
  			c=d[x];
+ 			System.out.println("Enter the quantity:");
  			s=in.nextInt();
  			c1=c*s;
  		}
@@ -34,6 +35,7 @@ while(z==1){
  			if(b<5 || b>9)
  				{System.out.println("Invalid input");}
  			c=d[x];
+ 			System.out.println("Enter the quantity:");
  			s=in.nextInt();
  			c1=c*s;
  		}
@@ -45,6 +47,7 @@ while(z==1){
  			if(b>13 || b<10)
  				{System.out.println("Invalid input");}
  			c=d[x];
+ 			System.out.println("Enter the quantity:");
  			s=in.nextInt();
  			c1=c*s;
  	}	
@@ -84,6 +87,7 @@ while(z==1){
  			}
 
  			else {c=d[x];
+ 				System.out.println("Enter the quantity:");
  			s=in.nextInt();
  			c1=c*s;}
  	}
